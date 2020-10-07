@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.productapi.TestCases.TC005_Delete_Product_Record">
+        <methods>
+          <include name="getAllEmployees"/>
+          <include name="tearDown"/>
+          <include name="checkStatusCode"/>
+        </methods>
+      </class> <!-- com.productapi.TestCases.TC005_Delete_Product_Record -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
